@@ -22,5 +22,5 @@ Import the provided SQL file. The file is known as hrm_db.sql located inside the
 
 Browse the Human Resource Management System in a browser. i.e. http://localhost/hrm/.
 
-![Project Screenshot](screenshot.png)
+![Project Screenshot](Screenshot(760).png)
 
