@@ -1,53 +1,83 @@
-How to Run?
 
-Requirements
 
-Download and Install any local web server such as XAMPP.
+---
 
-Download the provided source code zip file. (download button is located below)
+# **Human Resource Management System (HRMS)**
 
-System Installation/Setup
+## **Overview**
 
-Open your XAMPP Control Panel and start Apache and MySQL.
+The **Human Resource Management System** is a web-based application designed to manage and streamline HR processes such as employee records, payroll management, and more. This system is built using **PHP** and **MySQL**.
 
-Extract the downloaded source code zip file.
+---
 
-Copy the extracted source code folder and paste it into the XAMPP's "htdocs" directory.
+## **How to Run?**
 
-Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
+### **Requirements**
 
-Create a new database named hrm_db.
+- A local web server such as **XAMPP**.
 
-Import the provided SQL file. The file is known as hrm_db.sql located inside the db folder.
+### **System Installation/Setup**
 
-Browse the Human Resource Management System in a browser. i.e. http://localhost/hrm/.
+1. **Download and Install XAMPP**
+   - [Download XAMPP](https://www.apachefriends.org/index.html) and install it on your local machine.
+   
+2. **Start Apache and MySQL**
+   - Open the **XAMPP Control Panel**.
+   - Start the **Apache** and **MySQL** modules.
 
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(760).png)
+3. **Download Source Code**
+   - Download the provided source code ZIP file from the **Download** button below.
+   - Extract the ZIP file.
 
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(761).png)
+4. **Set Up the Project**
+   - Copy the extracted source code folder.
+   - Paste it into the `htdocs` directory located in your XAMPP installation folder.
 
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(763).png)
+5. **Create Database**
+   - Open your browser and navigate to [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
+   - Create a new database named `hrm_db`.
 
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(764).png)
+6. **Import SQL File**
+   - Click on the `hrm_db` database.
+   - Select the **Import** tab.
+   - Upload and import the `hrm_db.sql` file located inside the `db` folder of the extracted project.
 
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(765).png)
+7. **Run the Application**
+   - Open your browser and navigate to [http://localhost/hrm/](http://localhost/hrm/).
 
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(766).png)
+---
 
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(767).png)
+## **Screenshots**
 
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(768).png)
+Here are some screenshots of the application:
 
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(769).png)
+| Screenshot | Description |
+|------------|-------------|
+| ![Screenshot 1](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(760).png) | Dashboard |
+| ![Screenshot 2](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(761).png) | Employee List |
+| ![Screenshot 3](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(763).png) | Add Employee |
+| ![Screenshot 4](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(764).png) | Payroll Management |
+| ![Screenshot 5](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(765).png) | Attendance Tracking |
+| ![Screenshot 6](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(766).png) | Leave Requests |
+| ![Screenshot 7](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(767).png) | Employee Profile |
+| ![Screenshot 8](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(768).png) | Manage Departments |
+| ![Screenshot 9](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(769).png) | Performance Review |
+| ![Screenshot 10](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(770).png) | Reports |
+| ![Screenshot 11](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(771).png) | Notifications |
+| ![Screenshot 12](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(772).png) | System Settings |
+| ![Screenshot 13](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(773).png) | Admin Panel |
+| ![Screenshot 14](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(774).png) | User Management |
+| ![Screenshot 15](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(775).png) | Audit Logs |
 
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(770).png)
+---
 
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(771).png)
+## **Features**
 
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(772).png)
+- **Employee Management**: Add, edit, and delete employee records.
+- **Payroll System**: Automated salary calculation and management.
+- **Attendance Tracking**: Monitor and manage employee attendance.
+- **Leave Management**: Process and approve leave requests.
+- **Performance Review**: Conduct and store employee performance evaluations.
+- **Report Generation**: Generate various HR-related reports.
 
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(773).png)
-
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(774).png)
-
-![Project Screenshot](https://github.com/Sharathhk122/human-resource-management/blob/main/Screenshot%20(775).png)
+---
