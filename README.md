@@ -21,4 +21,5 @@ Create a new database named hrm_db.
 Import the provided SQL file. The file is known as hrm_db.sql located inside the db folder.
 
 Browse the Human Resource Management System in a browser. i.e. http://localhost/hrm/.
+
 ![Alt text](./Screenshot (760).png)
